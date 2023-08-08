@@ -1,0 +1,16 @@
+{
+  "name": "doctorappointmentapp",
+  "version": "1.0.0",
+  "description": "FUNCTIONALITY/PURPOSE\r The basic functionality of this app is, the patient can raise a concern with an appointment timings and the doctor can accept it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd client && npm start\" \"cd server && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
